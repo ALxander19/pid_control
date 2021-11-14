@@ -5,7 +5,7 @@ ros::NodeHandle nh;
 void setup() {
 
   nh.initNode();
-  nh.advertise(encoder);
+  //nh.advertise(encoder);
 
   pinMode(inaR, OUTPUT);
   pinMode(inbR, OUTPUT);
