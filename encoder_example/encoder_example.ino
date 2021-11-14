@@ -27,8 +27,8 @@ void loop() {
   {
     newpositionR = encoderRPos;                      // MOTOR RIGHT
     newtime_encoder = micros();
-    // 64* counts per revolution
-    // La velocidad es de 75 rpm - 7.85 rad/s
+    // 64*100 counts per revolution and reduction
+    // La velocidad es de 100 rpm - 10.47 rad/s
     // Se da 4 pulsos por cuenta
 
     oldpositionR = newpositionR;
